@@ -1,0 +1,376 @@
+{
+	"info": {
+		"_postman_id": "16080453-8f66b62b-c6a8-4f38-bc97-9e940f0ddbca",
+		"name": "MoneyScale",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "API",
+			"item": [
+				{
+					"name": "Users",
+					"item": [
+						{
+							"name": "Get Users",
+							"id": "16080453-f5c3cf73-1bc6-48f4-8207-326bd8be4eb4",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://10.2.225.106:8085/api/user",
+									"protocol": "http",
+									"host": [
+										"10",
+										"2",
+										"225",
+										"106"
+									],
+									"port": "8085",
+									"path": [
+										"api",
+										"user"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "16080453-cd8bf8bb-cb7e-476c-98b9-5260c05ff6cb"
+				},
+				{
+					"name": "Accounts",
+					"item": [
+						{
+							"name": "Get Accounts",
+							"id": "16080453-09f43921-34ae-4a9c-92d2-3d795978e2f2",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://10.2.225.106:8085/api/accounts",
+									"protocol": "http",
+									"host": [
+										"10",
+										"2",
+										"225",
+										"106"
+									],
+									"port": "8085",
+									"path": [
+										"api",
+										"accounts"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Account",
+							"id": "16080453-b33838e7-ab6f-4f34-a9c5-a0288207e218",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Poupança\",\r\n    \"initial_balance\": \"0.0\",\r\n    \"description\": \"Caixa Geral de Depósitos\",\r\n    \"account_type\": \"savings\",\r\n    \"currency_id\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://10.2.225.106:8085/api/accounts",
+									"protocol": "http",
+									"host": [
+										"10",
+										"2",
+										"225",
+										"106"
+									],
+									"port": "8085",
+									"path": [
+										"api",
+										"accounts"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "16080453-dda78bff-d03d-47ef-8e6d-b1458f354a3e"
+				},
+				{
+					"name": "Public",
+					"item": [
+						{
+							"name": "Get Currencies",
+							"id": "16080453-cdbe7299-71ec-4e18-994a-648660185b12",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://10.2.225.106:8085/api/currency",
+									"protocol": "http",
+									"host": [
+										"10",
+										"2",
+										"225",
+										"106"
+									],
+									"port": "8085",
+									"path": [
+										"api",
+										"currency"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Transaction Types",
+							"id": "16080453-e7225c62-ef65-4e7d-a9d4-d5c86527db4b",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://10.2.225.106:8085/api/transaction_type",
+									"protocol": "http",
+									"host": [
+										"10",
+										"2",
+										"225",
+										"106"
+									],
+									"port": "8085",
+									"path": [
+										"api",
+										"transaction_type"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "16080453-7259746e-d023-4055-ba11-8f7c88df18d2"
+				},
+				{
+					"name": "Transactions",
+					"item": [
+						{
+							"name": "Get Transactions",
+							"id": "16080453-7a025f50-ce85-403b-b9e7-2aa2f2989cc5",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "http://10.2.225.106:8085/api/transactions?account_id=2",
+									"protocol": "http",
+									"host": [
+										"10",
+										"2",
+										"225",
+										"106"
+									],
+									"port": "8085",
+									"path": [
+										"api",
+										"transactions"
+									],
+									"query": [
+										{
+											"key": "account_id",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Transaction",
+							"id": "16080453-c15ebeaa-5659-4ed7-8d1a-c72d3a57da3c",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"account_id\": 2,\r\n    \"transaction_date\": \"2025-07-11T21:54:37.097866Z\",\r\n    \"amount\": -1.50,\r\n    \"description\": \"Devolução do Carro\",\r\n    \"payee\": \"Ferrari\",\r\n    \"transaction_type\": 2\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://10.2.225.106:8085/api/transactions",
+									"protocol": "http",
+									"host": [
+										"10",
+										"2",
+										"225",
+										"106"
+									],
+									"port": "8085",
+									"path": [
+										"api",
+										"transactions"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "16080453-f0ed673d-7e70-4dc6-81db-c9b67fd2b5f1"
+				},
+				{
+					"name": "Categories",
+					"item": [
+						{
+							"name": "Get Categories",
+							"id": "16080453-dca794c3-a778-4f36-85f2-ee8e0a69b6b0",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://10.2.225.106:8085/api/categories",
+									"protocol": "http",
+									"host": [
+										"10",
+										"2",
+										"225",
+										"106"
+									],
+									"port": "8085",
+									"path": [
+										"api",
+										"categories"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Category",
+							"id": "16080453-96152466-6ac3-484b-afd3-44e0ab172a45",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Refeições\",\r\n    \"category_type\": \"\"\r\n    // \"parent_category_id\": 0\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://10.2.225.106:8085/api/categories",
+									"protocol": "http",
+									"host": [
+										"10",
+										"2",
+										"225",
+										"106"
+									],
+									"port": "8085",
+									"path": [
+										"api",
+										"categories"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "16080453-6b003b46-4e4f-4064-8c88-6c28c06d1f82"
+				}
+			],
+			"id": "16080453-baa8fc3e-3c96-40ef-83c3-578a147b3964"
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "Znn7uLAyunhx6Wy91fi8kILjk8Np63QFdBN2bf2snqnvRoAwn5lRI9roZehxaNCS94bpCRewHU0AmFPubFPC/Q==",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "08486caa-1592-4e0f-befe-e31f4949b307",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "9d8baba5-4bd2-4467-89c6-5fb7e4307abd",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
