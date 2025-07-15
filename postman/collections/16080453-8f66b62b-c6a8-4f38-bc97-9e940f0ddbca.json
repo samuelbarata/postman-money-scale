@@ -353,7 +353,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "1fdd619f-e66a-4238-aa3e-cc908dbb5ecd",
+				"id": "772d9557-29c0-4e30-9ada-3d5a1a071756",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -364,7 +364,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "e479f320-03e5-43ca-8b49-14b345167cc4",
+				"id": "5fab748c-7301-46dc-b83e-c30feeea2f67",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -376,7 +376,7 @@
 	"variable": [
 		{
 			"key": "samuelbarata_apitoken",
-			"value": "Znn7uLAyunhx6Wy91fi8kILjk8Np63QFdBN2bf2snqnvRoAwn5lRI9roZehxaNCS94bpCRewHU0AmFPubFPC/Q==",
+			"value": "qwerty==",
 			"type": "default"
 		}
 	]
