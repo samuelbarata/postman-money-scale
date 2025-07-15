@@ -372,5 +372,12 @@
 				]
 			}
 		}
+	],
+	"variable": [
+		{
+			"key": "samuelbarata_apitoken",
+			"value": "",
+			"type": "default"
+		}
 	]
 }
