@@ -344,7 +344,7 @@
 		"bearer": [
 			{
 				"key": "token",
-				"value": "Znn7uLAyunhx6Wy91fi8kILjk8Np63QFdBN2bf2snqnvRoAwn5lRI9roZehxaNCS94bpCRewHU0AmFPubFPC/Q==",
+				"value": "{{samuelbarata_apitoken}}",
 				"type": "string"
 			}
 		]
@@ -353,7 +353,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "08486caa-1592-4e0f-befe-e31f4949b307",
+				"id": "1fdd619f-e66a-4238-aa3e-cc908dbb5ecd",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -364,7 +364,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "9d8baba5-4bd2-4467-89c6-5fb7e4307abd",
+				"id": "e479f320-03e5-43ca-8b49-14b345167cc4",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -376,7 +376,7 @@
 	"variable": [
 		{
 			"key": "samuelbarata_apitoken",
-			"value": "",
+			"value": "Znn7uLAyunhx6Wy91fi8kILjk8Np63QFdBN2bf2snqnvRoAwn5lRI9roZehxaNCS94bpCRewHU0AmFPubFPC/Q==",
 			"type": "default"
 		}
 	]
