@@ -297,7 +297,7 @@
 							"response": []
 						},
 						{
-							"name": "Create Transaction Copy",
+							"name": "Create TransactionTransfer",
 							"id": "16080453-dcf5b79f-feb0-4769-bca2-f0c219550fe9",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
