@@ -346,7 +346,29 @@
 							},
 							"request": {
 								"method": "GET",
-								"header": []
+								"header": [],
+								"url": {
+									"raw": "http://10.2.225.106:8085/api/balance?account_id=1",
+									"protocol": "http",
+									"host": [
+										"10",
+										"2",
+										"225",
+										"106"
+									],
+									"port": "8085",
+									"path": [
+										"api",
+										"balance"
+									],
+									"query": [
+										{
+											"key": "account_id",
+											"value": "1",
+											"type": "text"
+										}
+									]
+								}
 							},
 							"response": []
 						}
