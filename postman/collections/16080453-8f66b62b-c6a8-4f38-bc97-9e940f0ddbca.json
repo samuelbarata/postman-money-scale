@@ -314,7 +314,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"from_account_id\": 4,\r\n    \"to_account_id\": 5,\r\n    \"transaction_date\": \"2025-07-11T00:18:37.097866Z\",\r\n    \"amount\": -4,\r\n    \"description\": \"Saving Money :)\"\r\n}",
+									"raw": "{\r\n    \"from_account_id\": 4,\r\n    \"to_account_id\": 5,\r\n    \"transaction_date\": \"2025-07-11T00:18:37.097866Z\",\r\n    \"amount\": 25,\r\n    \"description\": \"Saving Money :)\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
