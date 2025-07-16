@@ -82,7 +82,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\": \"Poupança\",\r\n    \"initial_balance\": \"0.0\",\r\n    \"description\": \"Caixa Geral de Depósitos\",\r\n    \"account_type\": \"savings\",\r\n    \"currency_id\": 1\r\n}",
+									"raw": "{\r\n    \"name\": \"Poupabça\",\r\n    \"initial_balance\": \"0.0\",\r\n    \"description\": \"Caixa Geral de Depósitos\",\r\n    \"account_type\": \"savings\",\r\n    \"currency_id\": 1\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -190,7 +190,7 @@
 									}
 								],
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/transactions?account_id=2",
+									"raw": "http://10.2.225.106:8085/api/transactions?account_id=4",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -206,7 +206,7 @@
 									"query": [
 										{
 											"key": "account_id",
-											"value": "2"
+											"value": "4"
 										}
 									]
 								}
@@ -348,7 +348,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/balance?account_id=1",
+									"raw": "http://10.2.225.106:8085/api/balance?account_id=4",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -364,8 +364,7 @@
 									"query": [
 										{
 											"key": "account_id",
-											"value": "1",
-											"type": "text"
+											"value": "4"
 										}
 									]
 								}
