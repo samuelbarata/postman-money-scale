@@ -337,7 +337,20 @@
 				},
 				{
 					"name": "State",
-					"item": [],
+					"item": [
+						{
+							"name": "Account Balance",
+							"id": "16080453-07b81896-6873-444e-926a-5b764decd4de",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					],
 					"id": "16080453-7a01ce81-7971-4a0f-97ed-d7275b8496c0"
 				}
 			],
