@@ -230,7 +230,7 @@
 									}
 								],
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/transactions?account_id=4",
+									"raw": "http://10.2.225.106:8085/api/transaction_transfer?account_id=4",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -241,7 +241,7 @@
 									"port": "8085",
 									"path": [
 										"api",
-										"transactions"
+										"transaction_transfer"
 									],
 									"query": [
 										{
@@ -271,7 +271,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"account_id\": 2,\r\n    \"transaction_date\": \"2025-07-11T21:54:37.097866Z\",\r\n    \"amount\": -1.50,\r\n    \"description\": \"Devolução do Carro\",\r\n    \"payee\": \"Ferrari\",\r\n    \"transaction_type\": 2\r\n}",
+									"raw": "{\r\n    \"account_id\": 4,\r\n    \"transaction_date\": \"2025-07-11T00:18:37.097866Z\",\r\n    \"amount\": -4,\r\n    \"description\": \"Compra do Carro\",\r\n    \"payee\": \"Ferrari\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
