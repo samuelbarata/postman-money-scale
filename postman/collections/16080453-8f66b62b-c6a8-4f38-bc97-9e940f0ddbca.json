@@ -314,7 +314,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"account_id\": 4,\r\n    \"transaction_date\": \"2025-07-11T00:18:37.097866Z\",\r\n    \"amount\": -4,\r\n    \"description\": \"Compra do Carro\",\r\n    \"payee\": \"Ferrari\"\r\n}",
+									"raw": "{\r\n    \"from_account_id\": 4,\r\n    \"to_account_id\": 5,\r\n    \"transaction_date\": \"2025-07-11T00:18:37.097866Z\",\r\n    \"amount\": -4,\r\n    \"description\": \"Saving Money :)\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -322,7 +322,7 @@
 									}
 								},
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/transactions",
+									"raw": "http://10.2.225.106:8085/api/transaction_transfer",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -333,7 +333,7 @@
 									"port": "8085",
 									"path": [
 										"api",
-										"transactions"
+										"transaction_transfer"
 									]
 								}
 							},
