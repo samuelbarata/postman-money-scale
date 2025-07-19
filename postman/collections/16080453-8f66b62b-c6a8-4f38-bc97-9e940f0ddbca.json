@@ -536,8 +536,68 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"method": "GET",
-								"header": []
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"account_id\": 4,\r\n    // \"category_id\": 1,\r\n    \"transaction_date\": \"2025-07-20T00:18:37.097866Z\",\r\n    \"amount\": \"10.5\",\r\n    \"description\": \"Teste\",\r\n    \"payee\": \"FNAC\",\r\n    \"sub_transactions\": [{\r\n        \"name\": \"T1\",\r\n        \"amount\": \"5.5\",\r\n        \"category_id\": 9 \r\n    },{\r\n        \"name\": \"T2\",\r\n        \"amount\": \"5.0\",\r\n        \"category_id\": 10\r\n    }]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://10.2.225.106:8085/api/a_transactions",
+									"protocol": "http",
+									"host": [
+										"10",
+										"2",
+										"225",
+										"106"
+									],
+									"port": "8085",
+									"path": [
+										"api",
+										"a_transactions"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Transaction Copy",
+							"id": "16080453-e76f1fa6-379e-47f9-a1a5-2da1458f8d00",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"account_id\": 4,\r\n    // \"category_id\": 1,\r\n    \"transaction_date\": \"2025-07-20T00:18:37.097866Z\",\r\n    \"amount\": \"10.5\",\r\n    \"description\": \"Teste\",\r\n    \"payee\": \"FNAC\",\r\n    \"sub_transactions\": [{\r\n        \"name\": \"T1\",\r\n        \"amount\": \"5.5\",\r\n        \"category_id\": 9 \r\n    },{\r\n        \"name\": \"T2\",\r\n        \"amount\": \"5.0\",\r\n        \"category_id\": 10\r\n    }]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://10.2.225.106:8085/api/a_transactions",
+									"protocol": "http",
+									"host": [
+										"10",
+										"2",
+										"225",
+										"106"
+									],
+									"port": "8085",
+									"path": [
+										"api",
+										"a_transactions"
+									]
+								}
 							},
 							"response": []
 						}
