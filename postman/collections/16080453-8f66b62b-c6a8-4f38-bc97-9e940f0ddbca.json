@@ -527,8 +527,21 @@
 					"id": "16080453-0ebbbf73-3584-4e5b-ba47-bd60311a187e"
 				},
 				{
-					"name": "New Folder",
-					"item": [],
+					"name": "Advanced Transactions",
+					"item": [
+						{
+							"name": "New Request",
+							"id": "16080453-a19df005-f336-46cc-9c3c-3ed561199239",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					],
 					"id": "16080453-fa8b953e-d3d1-41e2-8f15-4caca752788e"
 				}
 			],
