@@ -458,8 +458,21 @@
 					"id": "16080453-7a01ce81-7971-4a0f-97ed-d7275b8496c0"
 				},
 				{
-					"name": "New Folder",
-					"item": [],
+					"name": "Tags",
+					"item": [
+						{
+							"name": "New Request",
+							"id": "16080453-523c41c6-b9f2-49d9-923c-38a9d47319f2",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					],
 					"id": "16080453-0ebbbf73-3584-4e5b-ba47-bd60311a187e"
 				}
 			],
