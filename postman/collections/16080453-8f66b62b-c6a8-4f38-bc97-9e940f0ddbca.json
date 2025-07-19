@@ -461,7 +461,7 @@
 					"name": "Tags",
 					"item": [
 						{
-							"name": "New Request",
+							"name": "Get Tags",
 							"id": "16080453-523c41c6-b9f2-49d9-923c-38a9d47319f2",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
