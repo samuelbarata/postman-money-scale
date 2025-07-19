@@ -530,7 +530,7 @@
 					"name": "Advanced Transactions",
 					"item": [
 						{
-							"name": "New Request",
+							"name": "Create Transaction",
 							"id": "16080453-a19df005-f336-46cc-9c3c-3ed561199239",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
