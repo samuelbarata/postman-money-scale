@@ -498,7 +498,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\": \"\"\r\n}",
+									"raw": "{\r\n    \"name\": \"Arrependi-me\",\r\n    \"description\": \"Arrependi-me depois de comprar\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
