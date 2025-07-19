@@ -468,6 +468,33 @@
 							},
 							"request": {
 								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://10.2.225.106:8085/api/tags",
+									"protocol": "http",
+									"host": [
+										"10",
+										"2",
+										"225",
+										"106"
+									],
+									"port": "8085",
+									"path": [
+										"api",
+										"tags"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Tags Copy",
+							"id": "16080453-ab48a83f-97b9-4785-b9fb-8443e40a71ba",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
 								"header": []
 							},
 							"response": []
