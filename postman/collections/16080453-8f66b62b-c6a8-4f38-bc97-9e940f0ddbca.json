@@ -566,7 +566,7 @@
 							"response": []
 						},
 						{
-							"name": "Create Transaction Copy",
+							"name": "GetTransactions",
 							"id": "16080453-e76f1fa6-379e-47f9-a1a5-2da1458f8d00",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
