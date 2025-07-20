@@ -697,7 +697,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "772d9557-29c0-4e30-9ada-3d5a1a071756",
+				"id": "c2acb708-d8b1-4393-8c12-a24f112c410d",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -708,7 +708,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "5fab748c-7301-46dc-b83e-c30feeea2f67",
+				"id": "4efd3637-f667-4b71-b0ff-9eb1a2302024",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -722,6 +722,11 @@
 			"key": "samuelbarata_apitoken",
 			"value": "qwerty==",
 			"type": "default"
+		},
+		{
+			"key": "base_url",
+			"value": "https://money.barata.pt",
+			"type": "string"
 		}
 	]
 }
