@@ -21,15 +21,10 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/user",
-									"protocol": "http",
+									"raw": "l}}/api/user",
 									"host": [
-										"10",
-										"2",
-										"225",
-										"106"
+										"l}}"
 									],
-									"port": "8085",
 									"path": [
 										"api",
 										"user"
@@ -54,15 +49,10 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/accounts",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/accounts",
 									"host": [
-										"10",
-										"2",
-										"225",
-										"106"
+										"{{base_url}}"
 									],
-									"port": "8085",
 									"path": [
 										"api",
 										"accounts"
@@ -90,15 +80,10 @@
 									}
 								},
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/accounts",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/accounts",
 									"host": [
-										"10",
-										"2",
-										"225",
-										"106"
+										"{{base_url}}"
 									],
-									"port": "8085",
 									"path": [
 										"api",
 										"accounts"
@@ -123,15 +108,10 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/currency",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/currency",
 									"host": [
-										"10",
-										"2",
-										"225",
-										"106"
+										"{{base_url}}"
 									],
-									"port": "8085",
 									"path": [
 										"api",
 										"currency"
@@ -150,15 +130,10 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/transaction_type",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/transaction_type",
 									"host": [
-										"10",
-										"2",
-										"225",
-										"106"
+										"{{base_url}}"
 									],
-									"port": "8085",
 									"path": [
 										"api",
 										"transaction_type"
@@ -190,15 +165,10 @@
 									}
 								],
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/transactions?account_id=4",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/transactions?account_id=4",
 									"host": [
-										"10",
-										"2",
-										"225",
-										"106"
+										"{{base_url}}"
 									],
-									"port": "8085",
 									"path": [
 										"api",
 										"transactions"
@@ -230,15 +200,10 @@
 									}
 								],
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/transaction_transfer?account_id=4",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/transaction_transfer?account_id=4",
 									"host": [
-										"10",
-										"2",
-										"225",
-										"106"
+										"{{base_url}}"
 									],
-									"port": "8085",
 									"path": [
 										"api",
 										"transaction_transfer"
@@ -279,15 +244,10 @@
 									}
 								},
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/transactions",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/transactions",
 									"host": [
-										"10",
-										"2",
-										"225",
-										"106"
+										"{{base_url}}"
 									],
-									"port": "8085",
 									"path": [
 										"api",
 										"transactions"
@@ -322,15 +282,10 @@
 									}
 								},
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/transaction_transfer",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/transaction_transfer",
 									"host": [
-										"10",
-										"2",
-										"225",
-										"106"
+										"{{base_url}}"
 									],
-									"port": "8085",
 									"path": [
 										"api",
 										"transaction_transfer"
@@ -355,15 +310,10 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/categories",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/categories",
 									"host": [
-										"10",
-										"2",
-										"225",
-										"106"
+										"{{base_url}}"
 									],
-									"port": "8085",
 									"path": [
 										"api",
 										"categories"
@@ -398,15 +348,10 @@
 									}
 								},
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/categories",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/categories",
 									"host": [
-										"10",
-										"2",
-										"225",
-										"106"
+										"{{base_url}}"
 									],
-									"port": "8085",
 									"path": [
 										"api",
 										"categories"
@@ -431,15 +376,10 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/balance?account_id=4",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/balance?account_id=4",
 									"host": [
-										"10",
-										"2",
-										"225",
-										"106"
+										"{{base_url}}"
 									],
-									"port": "8085",
 									"path": [
 										"api",
 										"balance"
@@ -470,15 +410,10 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/tags",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/tags",
 									"host": [
-										"10",
-										"2",
-										"225",
-										"106"
+										"{{base_url}}"
 									],
-									"port": "8085",
 									"path": [
 										"api",
 										"tags"
@@ -506,15 +441,10 @@
 									}
 								},
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/tags",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/tags",
 									"host": [
-										"10",
-										"2",
-										"225",
-										"106"
+										"{{base_url}}"
 									],
-									"port": "8085",
 									"path": [
 										"api",
 										"tags"
@@ -548,15 +478,10 @@
 									}
 								},
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/a_transactions",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/a_transactions",
 									"host": [
-										"10",
-										"2",
-										"225",
-										"106"
+										"{{base_url}}"
 									],
-									"port": "8085",
 									"path": [
 										"api",
 										"a_transactions"
@@ -584,15 +509,10 @@
 									}
 								},
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/a_transactions?account_id=4",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/a_transactions?account_id=4",
 									"host": [
-										"10",
-										"2",
-										"225",
-										"106"
+										"{{base_url}}"
 									],
-									"port": "8085",
 									"path": [
 										"api",
 										"a_transactions"
@@ -632,15 +552,10 @@
 									}
 								},
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/budget",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/budget",
 									"host": [
-										"10",
-										"2",
-										"225",
-										"106"
+										"{{base_url}}"
 									],
-									"port": "8085",
 									"path": [
 										"api",
 										"budget"
@@ -659,15 +574,10 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/budget",
-									"protocol": "http",
+									"raw": "}/api/budget",
 									"host": [
-										"10",
-										"2",
-										"225",
-										"106"
+										"}"
 									],
-									"port": "8085",
 									"path": [
 										"api",
 										"budget"
