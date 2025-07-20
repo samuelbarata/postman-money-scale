@@ -644,23 +644,14 @@
 							"response": []
 						},
 						{
-							"name": "Create Budget Copy",
+							"name": "List Budgets",
 							"id": "16080453-689b9ad9-05f8-47c5-895d-c205bea486c4",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
 							"request": {
-								"method": "POST",
+								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"name\": \"Refeições\",\r\n    \"amount\": \"200.0\",\r\n    \"type\": \"Fixed\",\r\n    \"frequency\": \"Monthly\",\r\n    \"start_date\": \"2025-07-01T00:00:00.000000Z\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
 								"url": {
 									"raw": "http://10.2.225.106:8085/api/budget",
 									"protocol": "http",
