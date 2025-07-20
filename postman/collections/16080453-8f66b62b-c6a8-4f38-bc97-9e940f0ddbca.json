@@ -21,9 +21,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "l}}/api/user",
+									"raw": "{{base_url}}/api/user",
 									"host": [
-										"l}}"
+										"{{base_url}}"
 									],
 									"path": [
 										"api",
