@@ -584,7 +584,7 @@
 									}
 								},
 								"url": {
-									"raw": "http://10.2.225.106:8085/api/a_transactions",
+									"raw": "http://10.2.225.106:8085/api/a_transactions?account_id=4",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -596,6 +596,12 @@
 									"path": [
 										"api",
 										"a_transactions"
+									],
+									"query": [
+										{
+											"key": "account_id",
+											"value": "4"
+										}
 									]
 								}
 							},
