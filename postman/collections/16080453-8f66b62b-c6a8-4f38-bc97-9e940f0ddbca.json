@@ -572,11 +572,11 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"method": "POST",
+								"method": "GET",
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"account_id\": 4,\r\n    // \"category_id\": 1,\r\n    \"transaction_date\": \"2025-07-20T00:18:37.097866Z\",\r\n    \"amount\": \"10.5\",\r\n    \"description\": \"Teste\",\r\n    \"payee\": \"FNAC\",\r\n    \"sub_transactions\": [{\r\n        \"name\": \"T1\",\r\n        \"amount\": \"5.5\",\r\n        \"category_id\": 9 \r\n    },{\r\n        \"name\": \"T2\",\r\n        \"amount\": \"5.0\",\r\n        \"category_id\": 10\r\n    }]\r\n}",
+									"raw": "",
 									"options": {
 										"raw": {
 											"language": "json"
