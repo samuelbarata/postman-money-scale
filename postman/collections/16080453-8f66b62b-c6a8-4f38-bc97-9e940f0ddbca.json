@@ -605,8 +605,21 @@
 					"id": "16080453-fa8b953e-d3d1-41e2-8f15-4caca752788e"
 				},
 				{
-					"name": "New Folder",
-					"item": [],
+					"name": "Budgets",
+					"item": [
+						{
+							"name": "Create Budget",
+							"id": "16080453-efd69e98-f061-410f-90e0-8e6de4a55444",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					],
 					"id": "16080453-095b5cfc-89c7-4b72-af5a-4cc1acd9c4ef"
 				}
 			],
