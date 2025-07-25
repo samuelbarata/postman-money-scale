@@ -575,9 +575,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "}/api/budget",
+									"raw": "{{base_url}}/api/budget",
 									"host": [
-										"}"
+										"{{base_url}}"
 									],
 									"path": [
 										"api",
