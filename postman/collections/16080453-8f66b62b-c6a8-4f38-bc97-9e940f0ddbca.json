@@ -102,7 +102,8 @@
 							"name": "Get Currencies",
 							"id": "16080453-cdbe7299-71ec-4e18-994a-648660185b12",
 							"protocolProfileBehavior": {
-								"disableBodyPruning": true
+								"disableBodyPruning": true,
+								"disabledSystemHeaders": {}
 							},
 							"request": {
 								"method": "GET",
