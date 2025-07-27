@@ -344,7 +344,7 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/api/transactions?transaction_id=8",
+									"raw": "{{base_url}}/api/transactions?transaction_id=15",
 									"host": [
 										"{{base_url}}"
 									],
@@ -355,7 +355,7 @@
 									"query": [
 										{
 											"key": "transaction_id",
-											"value": "8"
+											"value": "15"
 										}
 									]
 								}
