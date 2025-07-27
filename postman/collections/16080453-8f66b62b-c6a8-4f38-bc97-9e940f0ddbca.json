@@ -258,6 +258,44 @@
 							"response": []
 						},
 						{
+							"name": "Create Transaction Copy",
+							"id": "16080453-bf2a28e8-6fbf-4916-acca-1204a4b735eb",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"account_id\": 4,\r\n    \"transaction_date\": \"2025-07-11T00:18:37.097866Z\",\r\n    \"amount\": -4,\r\n    \"description\": \"Compra do Carro\",\r\n    \"payee\": \"Ferrari\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/api/transactions",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"transactions"
+									]
+								}
+							},
+							"response": []
+						},
+						{
 							"name": "Create TransactionTransfer",
 							"id": "16080453-dcf5b79f-feb0-4769-bca2-f0c219550fe9",
 							"protocolProfileBehavior": {
