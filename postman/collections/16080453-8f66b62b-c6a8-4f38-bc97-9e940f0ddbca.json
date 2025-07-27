@@ -363,7 +363,7 @@
 							"response": []
 						},
 						{
-							"name": "Delete Transaction Copy",
+							"name": "Delete Transaction Transfer",
 							"id": "16080453-b9d85232-7795-40c4-9ce7-b445e729e3b0",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
