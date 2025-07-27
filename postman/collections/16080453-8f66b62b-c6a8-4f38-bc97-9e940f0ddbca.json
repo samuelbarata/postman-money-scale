@@ -275,7 +275,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"account_id\": 4,\r\n    \"transaction_date\": \"2025-07-11T00:18:37.097866Z\",\r\n    \"amount\": -4,\r\n    \"description\": \"Compra do Carro\",\r\n    \"payee\": \"Ferrari\"\r\n}",
+									"raw": "{\r\n    \"account_id\": 4,\r\n    \"time\": \"08:58:00.000000\",\r\n    \"qr_data\": \"A:503340855*B:999999990*C:PT*D:FS*E:N*F:20250725*G:FS 056908525/030774*H:JJY4FG3T-030774*I1:PT*I7:2.27*I8:0.52*N:0.52*O:2.79*Q:hMHu*R:1050\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -283,13 +283,14 @@
 									}
 								},
 								"url": {
-									"raw": "{{base_url}}/api/transactions",
+									"raw": "{{base_url}}/api/transactions/qr",
 									"host": [
 										"{{base_url}}"
 									],
 									"path": [
 										"api",
-										"transactions"
+										"transactions",
+										"qr"
 									]
 								}
 							},
