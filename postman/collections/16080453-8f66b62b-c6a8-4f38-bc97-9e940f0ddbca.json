@@ -258,7 +258,7 @@
 							"response": []
 						},
 						{
-							"name": "Create Transaction Copy",
+							"name": "Create Transaction Qr",
 							"id": "16080453-bf2a28e8-6fbf-4916-acca-1204a4b735eb",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
