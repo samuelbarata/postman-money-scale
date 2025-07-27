@@ -166,7 +166,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{base_url}}/api/transactions?account_id=4",
+									"raw": "{{base_url}}/api/transactions?account_id=8",
 									"host": [
 										"{{base_url}}"
 									],
@@ -177,7 +177,7 @@
 									"query": [
 										{
 											"key": "account_id",
-											"value": "4"
+											"value": "8"
 										}
 									]
 								}
