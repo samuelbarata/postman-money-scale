@@ -341,8 +341,24 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"method": "GET",
-								"header": []
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/transactions?transaction_id=8",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"transactions"
+									],
+									"query": [
+										{
+											"key": "transaction_id",
+											"value": "8"
+										}
+									]
+								}
 							},
 							"response": []
 						}
