@@ -264,7 +264,7 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"method": "POST",
+								"method": "PUT",
 								"header": [
 									{
 										"key": "Content-Type",
@@ -275,7 +275,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"account_id\": 4,\r\n    \"transaction_date\": \"2025-07-11T00:18:37.097866Z\",\r\n    \"amount\": -4,\r\n    \"description\": \"Compra do Carro\",\r\n    \"payee\": \"Ferrari\"\r\n}",
+									"raw": "{\r\n    \"transaction_date\": \"2025-07-31T18:41:52.000000Z\",\r\n    \"payee\": \"100 Montaditos\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -283,13 +283,19 @@
 									}
 								},
 								"url": {
-									"raw": "{{base_url}}/api/transactions",
+									"raw": "{{base_url}}/api/transactions?transaction_id=18",
 									"host": [
 										"{{base_url}}"
 									],
 									"path": [
 										"api",
 										"transactions"
+									],
+									"query": [
+										{
+											"key": "transaction_id",
+											"value": "18"
+										}
 									]
 								}
 							},
