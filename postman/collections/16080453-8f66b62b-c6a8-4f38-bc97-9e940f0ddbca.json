@@ -295,41 +295,6 @@
 							"response": []
 						},
 						{
-							"name": "Get TransactionTransfer",
-							"id": "16080453-a7ce982e-3827-4588-9706-473d501820ad",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "GET",
-								"header": [
-									{
-										"key": "Content-Type",
-										"value": "application/json",
-										"type": "text",
-										"disabled": true
-									}
-								],
-								"url": {
-									"raw": "{{base_url}}/api/transaction_transfer?account_id=4",
-									"host": [
-										"{{base_url}}"
-									],
-									"path": [
-										"api",
-										"transaction_transfer"
-									],
-									"query": [
-										{
-											"key": "account_id",
-											"value": "4"
-										}
-									]
-								}
-							},
-							"response": []
-						},
-						{
 							"name": "Create Transaction Qr",
 							"id": "16080453-bf2a28e8-6fbf-4916-acca-1204a4b735eb",
 							"protocolProfileBehavior": {
@@ -363,6 +328,41 @@
 										"api",
 										"transactions",
 										"qr"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get TransactionTransfer",
+							"id": "16080453-a7ce982e-3827-4588-9706-473d501820ad",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "{{base_url}}/api/transaction_transfer?account_id=4",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"transaction_transfer"
+									],
+									"query": [
+										{
+											"key": "account_id",
+											"value": "4"
+										}
 									]
 								}
 							},
