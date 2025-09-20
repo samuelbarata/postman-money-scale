@@ -463,6 +463,28 @@
 							"response": []
 						},
 						{
+							"name": "Get Categories Copy",
+							"id": "16080453-41c97c23-8967-40f8-962f-ee8686612660",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/categories",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"categories"
+									]
+								}
+							},
+							"response": []
+						},
+						{
 							"name": "Create Category",
 							"id": "16080453-96152466-6ac3-484b-afd3-44e0ab172a45",
 							"protocolProfileBehavior": {
